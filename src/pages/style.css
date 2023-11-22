@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#cabecalho {
+    color: white;
+}
+
+.nav-link-text {
+    color: white;
+}
+
+#apresentacao {
+    background: url('../assets/img/desk-coworking.jpg') no-repeat;
+    background-position: 75% 75%;
+    color: white;
+    height: 70%;
+
+    #conteudoSection1 {
+        display: flex;
+        background: rgba(0,0,0,0.8);
+    }
+}
+
+#carrossel {
+    height: 60%;
+
+    .carousel {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+}
+
+#inscricao {
+    background:  url('../assets/img/happy-friendsd.jpg') no-repeat;
+    background-size: cover;
+    background-position: 75% 60%;
+
+    .container {
+        background: rgba(0,0,0,0.5);
+        color: white;
+    }
+}
+
+footer {
+    color: white;
+}
+
+@media screen and (max-width : 700px) {
+    #apresentacao {
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 1250px) {
+    #carrossel {
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    #carrossel {
+        font-size: .75rem;
+    }
+}
